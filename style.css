@@ -5,9 +5,22 @@ body{
 h1{
     font-size: 60px;
     font-weight: 700;
+    line-height: 20px;
 }
 h2{
     font-size: 20px;
+}
+.nav{
+    background-image: linear-gradient(salmon,orange);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
 }
 .foodnetwork-container{
     display: flex;
@@ -19,17 +32,17 @@ h2{
 .half-width{
     width: 50%;
     padding-left: 9%;
-    padding-top: 10%;
-    padding-right: 4%;
+    padding-top: 5%;
+    padding-right:4%;
     padding-bottom: 5%;
-    line-height: 30px;
-
 }
 .skip-diet{
-        padding-top: 20%;
+        padding-top: 13%;
+        
 }
 .half-width img{
     width: 100%;
+    
        
 }
 
@@ -45,6 +58,12 @@ h2{
 }
 .owner-info{
     background-image: url(images/7.png);
+    background-repeat: no repeat;
+        
+}
+
+.about-me{
+    padding-top: 15%;
 }
 .recipies{
     text-align: center;
@@ -83,7 +102,7 @@ footer{
     margin-bottom:  2%;
 }
 #food-highlights{
-    color:orangered;
+    color: orangered;
 }
 #network-highlights{
     color: gray;
